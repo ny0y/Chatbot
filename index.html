@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script defer src="main.js"></script>
+    <title>Personal Website</title>
+</head>
+<body>
+    
+    <main>
+        <aside>
+            <ul class="Links">
+                <li onclick="Navigate(0)" class="activeLink"><i class="fa-solid fa-house"></i>
+                    <p>Home</p>
+                </li>
+                <li onclick="Navigate(1)"><i class="fa-solid fa-user" ></i>
+                    <p>About Me</p>
+                </li>
+                <li onclick="Navigate(2)"><i class="fa-solid fa-list"></i>
+                    <p>Projects</p>
+                </li>
+                <li onclick="Navigate(3)"><i class="fa-solid fa-images"></i>
+                    <p>Gallery</p>
+                </li>
+                <li onclick="Navigate(4)"><i class="fa-solid fa-comments"></i>
+                    <p>Contact Me</p>
+                </li>
+            </ul>
+        </aside>
+        <div class="swiper mySwiper">
+            <div class="SlideContainer swiper-wrapper">
+                <div class="swiper-slide home-slide">
+                    <div class="HomeContent">
+                        <h1>Hi! I'm <span class="stylized-name">Ahmed</span>,</h1>
+                        <h2>An <span class="proffesions"> AI Developer and Backend Developer   </span></h2>
+                        <p class="heroline">I specialize in training, evaluating and optimizing AI models for practical applications and building scalable backend systems.
+                                            Let’s work together to bring your ideas to life!</p>
+
+                        <div class="buttonGroup"><button>Hire Me</button><button>Contact Me</button></div>
+                    </div>
+                    <div class="SocialLinks">
+                        <a href="https://codepen.io/yourusername" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-solid fa-file-lines"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/ahmed-ibrahim-almalki/" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/ny0y/" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://x.com/EngAhmed49621s" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+   
+                    </div>
+                    
+                    <div class="SideImg">
+                        <div class="top-right-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                        <img src="pp.jpg" alt="">
+                        <div class="bottom-left-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                    </div>
+                    <p class="slide-help">Scroll for next slide <i class="fa-solid fa-chevron-right fa-shake"></i>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="about-us">
+                    <h1 class="heading">About Me</h1>
+                    <h3 class="sub-heading">I'm Ahmed, <span class="proffesions"> Senior Computer Science Student | Backend Developer (PHP/Laravel/MySQL/Vagrant) | UI/UX Designer | AI & Machine Learning Enthusiast (Training in Large Language Models)</span></h3>
+                    <p class="aboutme-deatils">
+                        I am a Senior Computer Science student at Umm Al-Qura University with a deep passion for developing innovative software solutions, focusing on backend development, UI/UX design, and artificial intelligence. My technical expertise spans across multiple programming languages, including Laravel PHP, Java, Python, and deep learning frameworks for AI and machine learning. I am currently honing my skills in training Large Language Models, focusing on improving natural language understanding and interaction.
+
+                        I thrive in dynamic, collaborative environments and am passionate about solving complex problems using cutting-edge technologies. I am particularly interested in AI-driven applications and how they can transform industries and improve user experiences. As I continue my academic journey, I am eager to contribute to the tech community and collaborate on impactful projects                    </p>
+                    <div class="about-me-divison">
+                        <div class="about-me-table">
+                            <li><span>Experience:</span> Fresh Graduate</li>
+                            <li><span>Degree</span>: B.sc. Computer Science</li>
+                            <li><span>Country:</span> Saudi Arabia</li>
+                            <li><span>Avalibility:</span> 24/7 </li>
+                            <li><span>Age</span>: 23</li>
+                            <li><span>Phone</span>: +966560887647</li>
+                            <li><span>Language Used:</span> Python</li>
+                            <li><span>Degree</span>: Computer Science</li>
+                            <div class="buttonGroup"><button>Hire Me</button><button>Contact Me</button></div>
+                        </div>
+
+                        <div class="skill-bar">
+                            <li>
+                                <p>Python</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:99%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Laravel</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:80%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>UI/UX</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:85%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Java</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:50%"></div>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                </div></div>
+                <div class="swiper-slide services">
+
+                    <h1 class="heading">Projects</h1>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+                        <h2>AI Training, evaluation and optimization</h2>
+                        <p>Enhancing artificial intelligence models through comprehensive training, performance evaluation, and optimization for real-world applications.</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-globe"></i></div>
+                        <h2>Backend development</h2>
+                        <p>Designing robust, scalable backend systems to ensure seamless data flow and reliable application performance.</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <h2>UI/UX</h2>
+                        <p>Creating user-centered interfaces that deliver exceptional user experiences and enhance usability across platforms.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide gallery">
+                    <h1 class="heading">Gallery</h1>
+                    <div class="project"><img src="Untitled2.ipynb.png" alt=""></div>
+                    <div class="project"><img src="Chatbot Workspace.png" alt=""></div>
+
+
+                </div>
+                <div class="swiper-slide contactMe">
+                    <h1 class="heading">Contact Me</h1>
+                    <div class="contactinfo"><i class="fa-solid fa-phone"></i>
+                        <h3>Mobile No</h3>
+                        <p>+966560887647</p>
+                    </div>
+                    <div class="contactinfo"><i class="fa-solid fa-location-dot"></i>
+                        <h3>Location</h3>
+                        <p>Saudi Arabia</p>
+                    </div>
+                    <div class="contactinfo"><i class="fa-regular fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>Myformal.act@gmail.com</p>
+                    </div>
+                    <div class="contactinfo"><i class="fa-solid fa-globe"></i>
+                        <h3>Website</h3>
+                        <p>www.abc123.com</p>
+                    </div>
+                    <form>
+                        <h2>Send Me A Message</h2>
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="email">
+                        <textarea rows="10" placeholder="Type your Message Here..."></textarea>
+                        <button class="primary">Send</button>
+
+                    </form>
+                    <footer>
+                        <li>Copyright © 2024 Ahmed.</li>
+                    </footer>
+                </div>
+            </div>
+    </main>
+
+</body>
+</html>
